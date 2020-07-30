@@ -1,0 +1,68 @@
+<!--
+   _____           _____
+  |_   _|         |_   _|
+    | |  _ __ ___   | |_   _____  ___   ___   ___
+    | | | '_ ` _ \  | \ \ / / _ \/ _ \ / _ \ / _ \
+   _| |_| | | | | |_| |\ V /  __/ (_) | (_) | (_) |
+  |_____|_| |_| |_|_____\_/ \___|\___/ \___/ \___/
+                                               ______
+                                              |______|
+
+               <## ImIveooo_ - - 2019 - 2020 ##>
+        <##     RAINBOW DASH IS THE BEST PONY !     ##>    -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="https://imiveooo.fr/Images/Bundle/OCImiveooo.webp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Soundboard - ImIveooo_</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Soundboard by ImIveooo_" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+    <meta name="author" content="ImIveooo_">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000"/>
+    <script>
+        function PlaySound(son) {
+        var path = "sons/"
+        var snd = new Audio(path + son + ".mp3");
+        snd.play();
+        }
+        function StopSound() {
+        snd.stop();
+        }
+    </script>
+  </head>
+  <!-- Ceci est une version alpha de la soundboard, la page web n'est pas encore finie. -->
+  <body>
+    <section>
+        <details>
+          <summary>Vilebrequin <i class="fa fa-car"></i></summary>
+          <div>
+            <img src="https://pbs.twimg.com/profile_banners/858822768443498497/1539701017/1500x500" />
+            <p>Des bagnoles, des voitures et des autos. De la mécanique aussi. 
+                Et des moteurs. 
+                Voilà. 
+                On vous a dit qu'on aimait les voitures ?</p>
+            <p>
+                Vidéo du 1007 : <button onclick="PlaySound('TURBO')" class="button">TURBO <i class="fa fa-play"></i></button> <button class="button">BMW <i class="fa fa-play"></i></button>
+                <button class="button">1007 <i class="fa fa-play"></i></button> <button class="button">INSTAGRAM <i class="fa fa-play"></i></button>
+            </p>
+          </div>
+        </details>
+        <details>
+            <summary>Joueur du Grenier <i class="fa fa-gamepad"></i></summary>
+            <div>
+              <img src="https://pbs.twimg.com/profile_banners/500128681/1391763567/1500x500" />
+              <p>TEXT ICI
+                  hhhdhhh
+              </p>
+              <p>
+                  Vidéo test : <button onclick="PlaySound('TURBO')" class="button">TURBO <i class="fa fa-play"></i></button> <button class="button">BMW <i class="fa fa-play"></i></button>
+                  <button class="button">1007 <i class="fa fa-play"></i></button> <button class="button">INSTAGRAM <i class="fa fa-play"></i></button>
+              </p>
+            </div>
+          </details>
+      </section>
+  </body>
