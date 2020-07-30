@@ -151,3 +151,22 @@ details[open] > summary {
 .button:hover {
   background-color: #335dcf;
 }
+
+.buttonStop {
+  background-color: #cf3333;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttonStop:hover {
+  background-color: #d62121;
+}
