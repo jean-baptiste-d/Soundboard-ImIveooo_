@@ -33,6 +33,10 @@ section {
   color: #fff;
 }
 
+.sounds {
+  font-family: "Space Mono", monospace;
+}
+
 summary {
   display: block;
   cursor: pointer;
@@ -169,4 +173,23 @@ details[open] > summary {
 
 .buttonStop:hover {
   background-color: #d62121;
+}
+
+.buttonReseau {
+  background-color: #cacaca;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttonReseau:hover {
+  background-color: #e7e7e7;
 }

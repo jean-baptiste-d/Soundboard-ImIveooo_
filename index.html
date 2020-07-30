@@ -26,7 +26,7 @@
     <script>
         function PlaySound(son) {
         var path = "sons/"
-        var snd = new Audio(path + son + ".mp3");
+        var snd = new Audio(path + son + ".ogg");
         snd.play();
         }
         function StopSound() {
@@ -41,29 +41,37 @@
         <details>
           <summary>Vilebrequin <i class="fa fa-car"></i></summary>
           <div>
-            <img src="https://pbs.twimg.com/profile_banners/858822768443498497/1539701017/1500x500" />
+            <img src="/images/vilebrequin.jpg" alt="vilebrequin" />
             <p>Des bagnoles, des voitures et des autos. De la mécanique aussi. 
                 Et des moteurs. 
                 Voilà. 
                 On vous a dit qu'on aimait les voitures ?</p>
-            <p>
-                Vidéo du 1007 : <button onclick="PlaySound('TURBO')" class="button">TURBO <i class="fa fa-play"></i></button> <button class="button">BMW <i class="fa fa-play"></i></button>
-                <button class="button">1007 <i class="fa fa-play"></i></button> <button class="button">INSTAGRAM <i class="fa fa-play"></i></button>
+            <p style="text-align: center;">
+              <a href="https://www.youtube.com/channel/UCC9mlCpyisiIpp9YA9xV-QA" target="blank"><button class="buttonReseau">Youtube <i class="fa fa-youtube-play"></i></button></a>
+              <a href="https://www.instagram.com/vbrequin/" target="blank"><button class="buttonReseau">Instagram <i class="fa fa-instagram"></i></button></a>
+              <a href="https://twitter.com/VilebrequinAuto" target="blank"><button class="buttonReseau">Twitter <i class="fa fa-twitter"></i></button></a>
             </p>
           </div>
+          <p class="sounds">
+            Vidéo du Peugeot 1007 : <button onclick="PlaySound('vilebrequin - 1007 - bonjour')" class="button">Bonjour <i class="fa fa-play"></i></button> <button class="button">... <i class="fa fa-play"></i></button>
+          </p>
         </details>
         <details>
             <summary>Joueur du Grenier <i class="fa fa-gamepad"></i></summary>
             <div>
-              <img src="https://pbs.twimg.com/profile_banners/500128681/1391763567/1500x500" />
-              <p>TEXT ICI
-                  hhhdhhh
-              </p>
+              <img src="/images/jdg.png" alt="jdg"/>
               <p>
-                  Vidéo test : <button onclick="PlaySound('TURBO')" class="button">TURBO <i class="fa fa-play"></i></button> <button class="button">BMW <i class="fa fa-play"></i></button>
-                  <button class="button">1007 <i class="fa fa-play"></i></button> <button class="button">INSTAGRAM <i class="fa fa-play"></i></button>
+                Joueur du Grenier est également le nom du personnage principal de l'émission, interprété par le vidéaste Frédéric Molas (dit Fred), et celui de la chaîne YouTube qu'il gère conjointement avec Sébastien Rassiat (dit Seb), cocréateur de l'émission.
+              </p>
+              <p style="text-align: center;">
+                <a href="https://www.youtube.com/user/joueurdugrenier" target="blank"><button class="buttonReseau">Youtube <i class="fa fa-youtube-play"></i></button></a>
+                <a href="http://www.joueurdugrenier.fr/" target="blank"><button class="buttonReseau">Site <i class="fa fa-internet-explorer"></i></button></a>
+                <a href="https://twitter.com/Frederic_Molas" target="blank"><button class="buttonReseau">Twitter <i class="fa fa-twitter"></i></button></a>
               </p>
             </div>
+            <p class="sounds">
+              EN COUR : <button onclick="PlaySound('')" class="button">... <i class="fa fa-play"></i></button>
+            </p>
           </details>
           <p style="text-align: center;"><button onclick="StopSound()" class="buttonStop">Stop <i class="fa fa-stop"></i></button></p>
       </section>
@@ -73,7 +81,7 @@
     <div style="text-align: center;">
       <a style="color:#9ed9f7;" href="https://twitter.com/imiveooo" target="blank">Twitter</a> | <a style="color:#9ed9f7;" href="https://imiveooo.fr/" target="blank">Site Web</a> | <a style="color:#9ed9f7;" href="https://github.com/ImIveooo/Soundboard-ImIveooo_" target="blank">Github</a> | <a style="color:#9ed9f7;" href="https://imiveooo.fr/Contact" target="blank">Contact</a>
       <p style="color: whitesmoke;">&copy; 2019 - 2020 ImIveooo_</p>
-      <p style="color: whitesmoke;">Version 0.0.0.1</p>
+      <p style="color: whitesmoke;">Version ALPHA 0.0.0.1</p>
     </div>
   </footer>
 </html>
