@@ -2,3 +2,5 @@ User-agent: *
 Disallow : /images
 Disallow : /sons
 Disallow : /themes
+Disallow : header.php
+Disallow : footer.php

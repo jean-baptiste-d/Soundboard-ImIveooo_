@@ -23,16 +23,6 @@
     <meta name="author" content="ImIveooo_">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000"/>
-    <script>
-        function PlaySound(son) {
-        var path = "sons/"
-        var snd = new Audio(path + son + ".ogg");
-        snd.play();
-        }
-        function StopSound() {
-        snd.stop();
-        }
-    </script>
   </head>
   <!-- Ceci est une version alpha de la soundboard, la page web n'est pas encore finie. -->
   <body>
@@ -41,7 +31,7 @@
         <details>
           <summary>Vilebrequin <i class="fa fa-car"></i></summary>
           <div>
-            <img src="/images/vilebrequin.jpg" alt="vilebrequin" />
+            <img src="/soundboard/images/vilebrequin.jpg" alt="vilebrequin" />
             <p>Des bagnoles, des voitures et des autos. De la mécanique aussi. 
                 Et des moteurs. 
                 Voilà. 
@@ -53,25 +43,13 @@
             </p>
           </div>
           <p class="sounds">
-            Vidéo du Peugeot 1007 : <button onclick="PlaySound('vilebrequin - 1007 - bonjour')" class="button"><i class="fa fa-play"></i> Bonjour !</button> <button onclick="PlaySound('vilebrequin - 1007 - ben si cest vrai')" class="button"><i class="fa fa-play"></i> Ben si c'est vrai.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - test voiture')" class="button"><i class="fa fa-play"></i> Une voiture révolutionaire.</button> <button onclick="PlaySound('vilebrequin - 1007 - oui 1007')" class="button"><i class="fa fa-play"></i> Oui c'est la peugeot 1007.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - je vous assure')" class="button"><i class="fa fa-play"></i> Je vous assure.</button> <button onclick="PlaySound('vilebrequin - 1007 - cest pas vrai')" class="button"><i class="fa fa-play"></i> C'est pas vrai.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - oui oui')" class="button"><i class="fa fa-play"></i> Oui oui.</button> <button onclick="PlaySound('vilebrequin - 1007 - avec le recul')" class="button"><i class="fa fa-play"></i> Avec le recul.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - les portes de la 1007')" class="button"><i class="fa fa-play"></i> Les portes du 1007.</button> <button onclick="PlaySound('vilebrequin - 1007 - mais ca reste la premiere')" class="button"><i class="fa fa-play"></i> Mais ça reste la première.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - quelle elegance')" class="button"><i class="fa fa-play"></i> Quelle élégance !</button> <button onclick="PlaySound('vilebrequin - 1007 - atouts')" class="button"><i class="fa fa-play"></i> Les atouts !</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - en option a 250')" class="button"><i class="fa fa-play"></i> En option a 250€.</button> <button onclick="PlaySound('vilebrequin - 1007 - les panneaux de porte')" class="button"><i class="fa fa-play"></i> Les panneaux de porte.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - la critique')" class="button"><i class="fa fa-play"></i> La critique.</button> <button onclick="PlaySound('vilebrequin - 1007 - la pire')" class="button"><i class="fa fa-play"></i> La PIRE !</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - une horreur')" class="button"><i class="fa fa-play"></i> UNE HORREUR !</button> <button onclick="PlaySound('vilebrequin - 1007 - jai que')" class="button"><i class="fa fa-play"></i> C'EST VRAI, j'ai <i>gros bip</i> !</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - un peu')" class="button"><i class="fa fa-play"></i> Un peu <i>bip...</i> !</button> <button onclick="PlaySound('vilebrequin - 1007 - le probleme')" class="button"><i class="fa fa-play"></i> Le problème !</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - le 0 to 100')" class="button"><i class="fa fa-play"></i> Le 0 à 100.</button> <button onclick="PlaySound('vilebrequin - 1007 - cest un enfer')" class="button"><i class="fa fa-play"></i> C'est un enfer.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - aie')" class="button"><i class="fa fa-play"></i> Aie !</button> <button onclick="PlaySound('vilebrequin - 1007 - resumer du 1007')" class="button"><i class="fa fa-play"></i> Résumer du 1007.</button>
-            <button onclick="PlaySound('vilebrequin - 1007 - hop')" class="button"><i class="fa fa-play"></i> Hop !</button> <button onclick="PlaySound('vilebrequin - 1007 - chassis peugeot')" class="button"><i class="fa fa-play"></i> Chassis Peugeot.</button>
+            Vidéo du Peugeot 1007 : <a href="/soundboard/1007"><button class="button"><i class="fa fa-music"></i> Les sons ! (34)</button></a>
           </p>
         </details>
         <details>
             <summary>Joueur du Grenier <i class="fa fa-gamepad"></i></summary>
             <div>
-              <img src="/images/jdg.png" alt="jdg"/>
+              <img src="/soundboard/images/jdg.png" alt="jdg"/>
               <p>
                 Joueur du Grenier est également le nom du personnage principal de l'émission, interprété par le vidéaste Frédéric Molas (dit Fred), et celui de la chaîne YouTube qu'il gère conjointement avec Sébastien Rassiat (dit Seb), cocréateur de l'émission.
               </p>
@@ -92,6 +70,7 @@
   <footer>
     <hr>
     <div style="text-align: center;">
+      <p style="color: whitesmoke;">Les personnes, les marques, les logos et les produits mentionnés sur ce site appartiennent à leurs propriétaires respectifs et il n'y a aucune affiliation avec le site.</p>
       <a style="color:#9ed9f7;" href="https://twitter.com/imiveooo" target="blank">Twitter</a> | <a style="color:#9ed9f7;" href="https://imiveooo.fr/" target="blank">Site Web</a> | <a style="color:#9ed9f7;" href="https://github.com/ImIveooo/Soundboard-ImIveooo_" target="blank">Github</a> | <a style="color:#9ed9f7;" href="https://imiveooo.fr/Contact" target="blank">Contact</a>
       <p style="color: whitesmoke;">&copy; 2019 - 2020 ImIveooo_</p>
       <p style="color: whitesmoke;">Version ALPHA 0.0.0.1</p>
