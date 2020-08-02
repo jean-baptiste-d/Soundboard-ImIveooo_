@@ -1,5 +1,5 @@
 <?php
-    include ('header.php'); 
+    include ('../header.php'); 
 ?>
     <script>
         function PlaySound(son) {
@@ -56,6 +56,6 @@
             </div>
         </div>
           <!-- ET NAN C'EST PAS UN BONTON STOP x)-->
-          <p style="text-align: center;"><a href="https://youtu.be/dQw4w9WgXcQ"><button class="buttonStop">Stop <i class="fa fa-stop"></i></button></a></p>
+          <p style="text-align: center;"><a href="/soundboard/images/kiwi.png"><button class="buttonStop">Stop <i class="fa fa-stop"></i></button></a></p>
       </section>
 <?php include ('footer.php'); ?>
