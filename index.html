@@ -23,6 +23,16 @@
     <meta name="author" content="ImIveooo_">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000"/>
+    <script>
+      function PlaySound(son) {
+      var path = "sons/vilebrequin/1007/"
+      var snd = new Audio(path + son + ".ogg");
+      snd.play();
+      }
+      function StopSound() {
+      snd.stop();
+      }
+    </script>
   </head>
   <!-- Ceci est une version alpha de la soundboard, la page web n'est pas encore finie. -->
   <body>
@@ -60,7 +70,7 @@
               </p>
             </div>
             <p class="sounds">
-              EN COUR : <button onclick="PlaySound('')" class="button">... <i class="fa fa-play"></i></button>
+              (Let's play Narratif) - NOTRE PROJET - : <a href="/soundboard/letsplays2geopolitical"><button class="button"><i class="fa fa-music"></i> Les sons ! (24)</button></a>
             </p>
           </details>
           <!-- ET NAN C'EST PAS UN BONTON STOP x)-->

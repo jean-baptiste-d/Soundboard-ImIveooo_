@@ -4,3 +4,5 @@ Disallow : /sons
 Disallow : /themes
 Disallow : header.php
 Disallow : footer.php
+Disallow : 1007.php
+Disallow : letsplays2geopolitical.php
